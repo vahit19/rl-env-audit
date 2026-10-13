@@ -1,0 +1,1553 @@
+[
+ {
+  "env": "arcee-ai/ifeval",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "beauduffy/ai2-arc",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "correct_answer_reward_func",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "charliethompson/commonground-elicit",
+  "status": "no_tasks",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "charliethompson/commonground-predict",
+  "status": "no_tasks",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "dev-team/gsm8k",
+  "status": "audited",
+  "template": "think_boxed",
+  "signal": "correct_answer_reward_func",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "ergotts/socratic-method",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "henriquegodoy/extract-zero",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "intertwine/sv-env-network-logs",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "kuberdenis/context-select",
+  "status": "no_tasks",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "kunumi/GoodSirMath8k",
+  "status": "audited",
+  "template": "declared_andswaru_only",
+  "signal": "__total__",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 52
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "kunumi/mbti",
+  "status": "audited",
+  "template": "declared_answer",
+  "signal": "__total__",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "kunumi/oab-bench",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "kyleavery/capa",
+  "status": "audited",
+  "template": "think_boxed",
+  "signal": "correct_features_reward_func",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 51
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 51
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "kyleavery/cybersoceval",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "kyleskutt/code-repair-env",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "leloy/nanogpt-speedrun",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "maziyar/OpenMed_BioASQ",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "accuracy_reward",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "maziyar/OpenMed_DDI",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "accuracy_reward",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "maziyar/OpenMed_HealthFact",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "accuracy_reward",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "maziyar/OpenMed_ICD10",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "maziyar/OpenMed_MedMCQA",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "accuracy_reward",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "maziyar/OpenMed_MedQA",
+  "status": "audited",
+  "template": "think_boxed",
+  "signal": "correct_index_reward_func",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "maziyar/OpenMed_RadQA",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "accuracy_reward",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "medarc/medcasereasoning",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "nguyen599/backend-bench",
+  "status": "install_error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": null,
+  "checks": {}
+ },
+ {
+  "env": "Environment A",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "memory_correct",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 56,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 60,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "ob1/blind-cartographer",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "popfido/kernelbench",
+  "status": "install_error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": null,
+  "checks": {}
+ },
+ {
+  "env": "popfido/misguided_attention",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/acereason-math",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "correct_answer",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "primeintellect/aime2024",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/aime2025",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/aime2026",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/ascii-tree",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/bixbench",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/code-env",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/deepdive",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "Environment B",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "correct_answer",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 2,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "primeintellect/gpqa",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/hle",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/ifeval",
+  "status": "no_tasks",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/livecodebench",
+  "status": "no_tasks",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/math500",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "correct",
+  "tasks_tested": 59,
+  "checks": {
+   "empty": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 59,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "primeintellect/mmlu-pro",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "correct",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "primeintellect/pydantic-adherence",
+  "status": "no_tasks",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/reverse-text",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/science-env",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/simpleqa-verified",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "primeintellect/skywork-math",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "correct_answer",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "rose/arc-agi",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "exact_match_reward",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "sami/countdown",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "shashwat23/ifbench",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "siddharth899/clrs-algorithms",
+  "status": "unsupported_api",
+  "template": null,
+  "signal": null,
+  "tasks_tested": null,
+  "checks": {}
+ },
+ {
+  "env": "srthkdev/contract_nli_env",
+  "status": "audited",
+  "template": "think_boxed",
+  "signal": "correct_label_reward_func",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "srthkdev/legalbench",
+  "status": "no_paid_format",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "tonic/deepconf",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "tylergolato/geroprotector-ranking",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ },
+ {
+  "env": "wambosec/mnist-adversarial",
+  "status": "audited",
+  "template": "bare",
+  "signal": "__total__",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "will/gsm8k",
+  "status": "audited",
+  "template": "boxed",
+  "signal": "correct_answer_reward_func",
+  "tasks_tested": 60,
+  "checks": {
+   "empty": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "format_only": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "grader_injection": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "hedge_or": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "candidate_list": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "two_finals": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "reasoning_and_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "rejected_value": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "value_after_final": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   },
+   "echo_prompt": {
+    "tested": 60,
+    "paid": 0,
+    "partial": 0
+   }
+  }
+ },
+ {
+  "env": "will/self-reward",
+  "status": "error",
+  "template": null,
+  "signal": null,
+  "tasks_tested": 0,
+  "checks": {}
+ }
+]
