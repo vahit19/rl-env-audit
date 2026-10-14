@@ -1,4 +1,4 @@
-# rl-env-audit
+# RL-env-audit
 
 **Before you train on an RL environment, check that its grader cannot be paid without a correct answer.**
 
