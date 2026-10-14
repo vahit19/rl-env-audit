@@ -1,6 +1,6 @@
 [
  {
-  "env": "arcee-ai/ifeval",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -67,7 +67,7 @@
   }
  },
  {
-  "env": "charliethompson/commonground-elicit",
+  "env": null,
   "status": "no_tasks",
   "template": null,
   "signal": null,
@@ -75,7 +75,7 @@
   "checks": {}
  },
  {
-  "env": "charliethompson/commonground-predict",
+  "env": null,
   "status": "no_tasks",
   "template": null,
   "signal": null,
@@ -142,7 +142,7 @@
   }
  },
  {
-  "env": "ergotts/socratic-method",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -150,7 +150,7 @@
   "checks": {}
  },
  {
-  "env": "henriquegodoy/extract-zero",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -158,7 +158,7 @@
   "checks": {}
  },
  {
-  "env": "intertwine/sv-env-network-logs",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -166,7 +166,7 @@
   "checks": {}
  },
  {
-  "env": "kuberdenis/context-select",
+  "env": null,
   "status": "no_tasks",
   "template": null,
   "signal": null,
@@ -292,7 +292,7 @@
   }
  },
  {
-  "env": "kunumi/oab-bench",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -359,7 +359,7 @@
   }
  },
  {
-  "env": "kyleavery/cybersoceval",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -367,7 +367,7 @@
   "checks": {}
  },
  {
-  "env": "kyleskutt/code-repair-env",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -375,7 +375,7 @@
   "checks": {}
  },
  {
-  "env": "leloy/nanogpt-speedrun",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -560,7 +560,7 @@
   }
  },
  {
-  "env": "maziyar/OpenMed_ICD10",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -745,7 +745,7 @@
   }
  },
  {
-  "env": "medarc/medcasereasoning",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -753,7 +753,7 @@
   "checks": {}
  },
  {
-  "env": "nguyen599/backend-bench",
+  "env": null,
   "status": "install_error",
   "template": null,
   "signal": null,
@@ -820,7 +820,7 @@
   }
  },
  {
-  "env": "ob1/blind-cartographer",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -828,7 +828,7 @@
   "checks": {}
  },
  {
-  "env": "popfido/kernelbench",
+  "env": null,
   "status": "install_error",
   "template": null,
   "signal": null,
@@ -836,7 +836,7 @@
   "checks": {}
  },
  {
-  "env": "popfido/misguided_attention",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -903,7 +903,7 @@
   }
  },
  {
-  "env": "primeintellect/aime2024",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -911,7 +911,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/aime2025",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -919,7 +919,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/aime2026",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -927,7 +927,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/ascii-tree",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -935,7 +935,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/bixbench",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -943,7 +943,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/code-env",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -951,7 +951,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/deepdive",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -1018,7 +1018,7 @@
   }
  },
  {
-  "env": "primeintellect/gpqa",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -1026,7 +1026,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/hle",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -1034,7 +1034,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/ifeval",
+  "env": null,
   "status": "no_tasks",
   "template": null,
   "signal": null,
@@ -1042,7 +1042,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/livecodebench",
+  "env": null,
   "status": "no_tasks",
   "template": null,
   "signal": null,
@@ -1168,7 +1168,7 @@
   }
  },
  {
-  "env": "primeintellect/pydantic-adherence",
+  "env": null,
   "status": "no_tasks",
   "template": null,
   "signal": null,
@@ -1176,7 +1176,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/reverse-text",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -1184,7 +1184,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/science-env",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -1192,7 +1192,7 @@
   "checks": {}
  },
  {
-  "env": "primeintellect/simpleqa-verified",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -1318,7 +1318,7 @@
   }
  },
  {
-  "env": "sami/countdown",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -1326,7 +1326,7 @@
   "checks": {}
  },
  {
-  "env": "shashwat23/ifbench",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -1334,7 +1334,7 @@
   "checks": {}
  },
  {
-  "env": "siddharth899/clrs-algorithms",
+  "env": null,
   "status": "unsupported_api",
   "template": null,
   "signal": null,
@@ -1401,7 +1401,7 @@
   }
  },
  {
-  "env": "srthkdev/legalbench",
+  "env": null,
   "status": "no_paid_format",
   "template": null,
   "signal": null,
@@ -1409,7 +1409,7 @@
   "checks": {}
  },
  {
-  "env": "tonic/deepconf",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -1417,7 +1417,7 @@
   "checks": {}
  },
  {
-  "env": "tylergolato/geroprotector-ranking",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,
@@ -1543,7 +1543,7 @@
   }
  },
  {
-  "env": "will/self-reward",
+  "env": null,
   "status": "error",
   "template": null,
   "signal": null,

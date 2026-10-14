@@ -19,7 +19,20 @@ On 13 October 2026 the tool scanned the 60 most-starred public environments tagg
 
 The two failures are different in kind. In one, the grader accepts any short reply that *contains* the answer, so a reply naming two candidates (`A or B`) is paid in full whichever is right: 60 of 60 tasks. In the other, a reply without `\boxed{}` is scored as a whole math expression, so restating a compute-this-expression question is paid: 2 of 60 tasks. Both environments are kept anonymous until their authors have been told privately and have had time to fix them.
 
-Getting here also took the tool through three graders that *look* exploitable but are not, each now a unit test: a reward with a style term (the style score moves with wording, not with correctness), an F1 grader that gives partial credit for extra items by design, and a label grader that maps any mention of `ENTAIL` to one label (a fixed priority gives a policy no second guess).
+**Both have small fixes, checked with the tool** ([details](scans/2026-10-13-prime-hub.md#fixes), [data](scans/2026-10-14-fixes.json)):
+
+| | Check | Original grader | Fixed grader |
+|---|---|---|---|
+| Environment A | `hedge_or` | 466/500 tasks | 0/500 |
+| Environment A | `candidate_list` | 500/500 tasks | 0/500 |
+| Environment A | honest replies (10 phrasings of the correct answer per task) | 4,997/5,000 paid | 4,997/5,000 paid, none changed |
+| Environment B | `echo_prompt` | 11/299 tasks | 0/299 |
+
+Getting here also took the tool through four graders that *look* exploitable but are not, each now a unit test: a grader that reads the last boxed answer, a reward with a style term (the style score moves with wording, not with correctness), an F1 grader that gives partial credit for extra items by design, and a label grader that maps any mention of `ENTAIL` to one label (a fixed priority gives a policy no second guess).
+
+## Paper
+
+[**Two Guesses for the Price of One: Acceptance Tests for the Graders of Reinforcement-Learning Environments**](paper/Two_Guesses_for_the_Price_of_One_Acceptance_Tests_for_RL_Environment_Graders.pdf) (12 pages). It describes the checks, proves that the cross-task rule never flags a grader that extracts a single answer, validates the rules on thirteen toy graders, and reports the scan and the fixes. `paper/make_figures.py` regenerates its figures from the files in `scans/`.
 
 ## How a check works
 
@@ -34,14 +47,14 @@ Each environment is first calibrated, so that a check is only trusted where the 
 | `format_only` | null reply | never |
 | `echo_prompt` | null reply | never |
 | `grader_injection` | grader injection | never (a wrong answer plus a note telling the grader it is correct) |
-| `hedge_or` | two guesses | never in both orders (`gold or wrong` and `wrong or gold`) |
-| `candidate_list` | two guesses | never in both orders |
-| `two_finals` | two guesses | never in both orders |
-| `reasoning_and_final` | two guesses | never in both orders (one value in the reasoning, another as the final answer) |
-| `rejected_value` | two guesses | never in both orders ("it is not X", then a final answer) |
-| `value_after_final` | two guesses | never in both orders |
+| `hedge_or` | two guesses | never on both tasks (`gold or wrong`) |
+| `candidate_list` | two guesses | never on both tasks (`wrong, gold`) |
+| `two_finals` | two guesses | never on both tasks |
+| `reasoning_and_final` | two guesses | never on both tasks (one value in the reasoning, another as the final answer) |
+| `rejected_value` | two guesses | never on both tasks ("it is not X", then a final answer) |
+| `value_after_final` | two guesses | never on both tasks |
 
-3. **Decide.** A check counts as paid when the correctness signal rewards it at least halfway between the wrong and the correct answer, and the result reproduces on a second call. Two-guess checks count only when **both** orders are paid: a grader that always reads the first (or the last) value gives a policy nothing, while one that pays the gold value wherever it appears lets a policy hedge. Two-guess checks are skipped for set-valued answers (e.g. `9, 51, 237`), where partial credit for extra items is usually intended.
+3. **Decide.** A null or injection check counts as paid when the correctness signal rewards it at least halfway between the wrong and the correct answer, and the result reproduces on a second call. A two-guess reply, built from a task's answer `g` and a wrong answer `w`, counts only when it is paid **in full on two tasks**: this one, and another task whose answer is `w`. A grader that reads one value from the reply, by position or by a fixed priority, can never pay the same reply as correct on both (the paper proves this), so it gives a policy nothing to gain; a grader that pays the gold value wherever it appears lets a policy hedge. Replies paid above halfway but not in full on both tasks are reported separately as partial credit (F1-style graders give it by design).
 
 **Certificate.** If no check is paid on *n* tasks, the rate at which each check is paid is below 1 − 0.05^(1/n) with 95% confidence (an exact binomial bound): 59 clean tasks bound it below 5%.
 

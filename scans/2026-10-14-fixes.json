@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-14",
+ "Environment A": {
+  "tasks": 500,
+  "before": {
+   "hedge_or": {
+    "tested": 500,
+    "paid": 466
+   },
+   "candidate_list": {
+    "tested": 500,
+    "paid": 500
+   }
+  },
+  "after": {
+   "hedge_or": {
+    "tested": 500,
+    "paid": 0
+   },
+   "candidate_list": {
+    "tested": 500,
+    "paid": 0
+   }
+  },
+  "honest_phrasings": {
+   "replies": 5000,
+   "paid_before": 4997,
+   "paid_after": 4997,
+   "changed": 0
+  },
+  "no_tracking_policies": {
+   "family 1": {
+    "tasks": 100,
+    "mean_candidates": 2.34,
+    "first stated value | original": 0.0,
+    "first stated value | fixed": 0.0,
+    "last stated value | original": 1.0,
+    "last stated value | fixed": 1.0,
+    "one stated value at random | original": 0.49,
+    "one stated value at random | fixed": 0.49,
+    "all stated values, joined by 'or' | original": 1.0,
+    "all stated values, joined by 'or' | fixed": 0.0,
+    "all stated values, as a list | original": 1.0,
+    "all stated values, as a list | fixed": 1.0,
+    "correct answer | fixed": 1.0
+   },
+   "family 2": {
+    "tasks": 50,
+    "mean_candidates": 3.2,
+    "first stated value | original": 0.22,
+    "first stated value | fixed": 0.22,
+    "last stated value | original": 1.0,
+    "last stated value | fixed": 1.0,
+    "one stated value at random | original": 0.42,
+    "one stated value at random | fixed": 0.42,
+    "all stated values, joined by 'or' | original": 0.98,
+    "all stated values, joined by 'or' | fixed": 0.0,
+    "all stated values, as a list | original": 1.0,
+    "all stated values, as a list | fixed": 0.56,
+    "correct answer | fixed": 1.0
+   },
+   "family 3": {
+    "tasks": 100,
+    "mean_candidates": 2.99,
+    "first stated value | original": 0.41,
+    "first stated value | fixed": 0.41,
+    "last stated value | original": 0.25,
+    "last stated value | fixed": 0.25,
+    "one stated value at random | original": 0.35,
+    "one stated value at random | fixed": 0.35,
+    "all stated values, joined by 'or' | original": 1.0,
+    "all stated values, joined by 'or' | fixed": 0.0,
+    "all stated values, as a list | original": 1.0,
+    "all stated values, as a list | fixed": 0.25,
+    "correct answer | fixed": 1.0
+   }
+  }
+ },
+ "Environment B": {
+  "tasks": 299,
+  "before": {
+   "empty": {
+    "tested": 299,
+    "paid": 0
+   },
+   "format_only": {
+    "tested": 299,
+    "paid": 0
+   },
+   "grader_injection": {
+    "tested": 299,
+    "paid": 0
+   },
+   "hedge_or": {
+    "tested": 299,
+    "paid": 0
+   },
+   "candidate_list": {
+    "tested": 299,
+    "paid": 0
+   },
+   "two_finals": {
+    "tested": 299,
+    "paid": 0
+   },
+   "reasoning_and_final": {
+    "tested": 299,
+    "paid": 0
+   },
+   "rejected_value": {
+    "tested": 299,
+    "paid": 0
+   },
+   "value_after_final": {
+    "tested": 299,
+    "paid": 0
+   },
+   "echo_prompt": {
+    "tested": 299,
+    "paid": 11
+   }
+  },
+  "after": {
+   "empty": {
+    "tested": 299,
+    "paid": 0
+   },
+   "format_only": {
+    "tested": 299,
+    "paid": 0
+   },
+   "grader_injection": {
+    "tested": 299,
+    "paid": 0
+   },
+   "hedge_or": {
+    "tested": 299,
+    "paid": 0
+   },
+   "candidate_list": {
+    "tested": 299,
+    "paid": 0
+   },
+   "two_finals": {
+    "tested": 299,
+    "paid": 0
+   },
+   "reasoning_and_final": {
+    "tested": 299,
+    "paid": 0
+   },
+   "rejected_value": {
+    "tested": 299,
+    "paid": 0
+   },
+   "value_after_final": {
+    "tested": 299,
+    "paid": 0
+   },
+   "echo_prompt": {
+    "tested": 299,
+    "paid": 0
+   }
+  },
+  "signal_gap_before": 1.0,
+  "signal_gap_after": 1.0
+ }
+}

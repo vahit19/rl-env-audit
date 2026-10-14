@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[preprint]{tmlr}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\setlist{itemsep=2pt, topsep=4pt}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,calc}
+\graphicspath{{../figures/}}
+\definecolor{linkblue}{HTML}{1D4E89}
+\definecolor{checkblue}{HTML}{1D4ED8}
+\definecolor{failred}{HTML}{DC2626}
+\definecolor{passgreen}{HTML}{15803D}
+\hypersetup{colorlinks=true, linkcolor=linkblue, citecolor=linkblue, urlcolor=linkblue,
+            pdftitle={Two Guesses for the Price of One: Acceptance Tests for the Graders of Reinforcement-Learning Environments},
+            pdfauthor={Vahit FERYAD}}
+
+\newtheorem{proposition}{Proposition}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\newcommand{\chk}[1]{\texttt{\detokenize{#1}}}
+
+\title{Two Guesses for the Price of One: Acceptance Tests for the Graders of Reinforcement-Learning Environments}
+
+\author{\name Vahit FERYAD \email \href{mailto:vahit.feryat@gmail.com}{vahit.feryat@gmail.com}\\
+\addr Independent researcher, Istanbul, T\"urkiye\\
+\addr ORCID: \href{https://orcid.org/0000-0002-3282-339X}{0000-0002-3282-339X}\\
+\addr Code and data: \href{https://github.com/vahit19/rl-env-audit}{github.com/vahit19/rl-env-audit}}
+
+\input{body}
