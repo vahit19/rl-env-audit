@@ -2,6 +2,8 @@
 
 **Before you train on an RL environment, check that its grader cannot be paid without a correct answer.**
 
+![What the test sends, the two-guess rule, a scan of 60 public environments, and the fixes](figures/rl_env_audit_story.gif)
+
 `rl-env-audit` is an acceptance test for the reward functions of reinforcement-learning (RL) environments. It installs an environment in an isolated virtualenv, calls the environment's own scoring code (the same code a training run calls), and sends it replies that should never be paid like a correct answer: an empty reply, a wrong answer with a note telling the grader it is correct, or a reply that names two candidates so that the policy gets two guesses for the price of one. An environment that pays none of them gets a certificate with an exact statistical bound; one that pays any of them gets the failing replies, so the author can fix the grader before anyone trains on it.
 
 No extra labels are needed: every check is built from the task's own reference answer, a wrong answer, and the reply format the grader already pays.
